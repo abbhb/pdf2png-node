@@ -26,7 +26,7 @@ func main() {
 	fmt.Printf("Total pages: %d\n", pageCount)
 
 	// 创建空白图像
-	const thumbSize = 100 // 每个缩略图的宽高
+	const thumbSize = 600 // 每个缩略图的宽高
 	const gridSize = 3    // 九宫格为3x3
 	gridWidth := thumbSize * gridSize
 	gridHeight := thumbSize * gridSize
