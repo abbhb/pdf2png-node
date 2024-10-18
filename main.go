@@ -14,7 +14,7 @@ import (
 
 func main() {
 	// 打开PDF文件
-	doc, err := fitz.New("input.pdf")
+	doc, err := fitz.New("computernet.pdf")
 	if err != nil {
 		fmt.Printf("Error opening PDF file: %v\n", err)
 		return
@@ -60,7 +60,7 @@ func main() {
 	}
 
 	// 保存为PNG文件
-	outFile, err := os.Create("output.png")
+	outFile, err := os.Create("output1.png")
 	if err != nil {
 		fmt.Printf("Error creating output file: %v\n", err)
 		return
