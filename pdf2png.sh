@@ -2,7 +2,7 @@
 
 # 定义容器名称前缀和后缀
 PREFIX="pdf2png-node_"
-SUFFIX="pdf2png_node:1.0.0"
+SUFFIX="10.15.247.193/test/pdf2png_node:latest"
 
 # 函数：启动容器
 start_containers() {
