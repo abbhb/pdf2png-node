@@ -9,7 +9,7 @@ COPY . /app
 
 RUN go env -w GO111MODULE=on
 RUN go env -w GOPROXY=https://goproxy.cn,direct
-RUN go build -v -ldflags="-w -s" -o pdf2png-node .
+RUN go build -v -o pdf2png-node .
 
 
 # 指定启动命令
