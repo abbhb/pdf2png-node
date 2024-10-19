@@ -7,9 +7,9 @@ WORKDIR /app
 # 复制当前目录内容到容器中的 /app 目录
 COPY . /app
 
-RUN go env -w GO111MODULE=on
-RUN go env -w GOPROXY=https://goproxy.cn,direct
-RUN go build -v -o pdf2png-node .
+RUN go env -w GO111MODULE=on \
+&& go env -w GOPROXY=https://goproxy.cn,direct \
+&& go build -o pdf2png-node main.go
 
 
 # 指定启动命令
