@@ -3,12 +3,17 @@ module pdf2png-node
 go 1.22
 
 require (
+	github.com/apache/rocketmq-clients/golang/v5 v5.1.1-rc1
+	github.com/gen2brain/go-fitz v1.24.14
+	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646
+	gopkg.in/resty.v1 v1.12.0
+)
+
+require (
 	contrib.go.opencensus.io/exporter/ocagent v0.6.0 // indirect
-	github.com/apache/rocketmq-clients/golang/v5 v5.1.1-rc1 // indirect
 	github.com/census-instrumentation/opencensus-proto v0.3.0 // indirect
 	github.com/dchest/siphash v1.2.3 // indirect
 	github.com/ebitengine/purego v0.8.0 // indirect
-	github.com/gen2brain/go-fitz v1.24.14 // indirect
 	github.com/go-playground/locales v0.14.0 // indirect
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-playground/validator/v10 v10.11.0 // indirect
@@ -22,7 +27,6 @@ require (
 	github.com/jupiterrider/ffi v0.2.0 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/natefinch/lumberjack v2.0.0+incompatible // indirect
-	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
 	github.com/pdfcpu/pdfcpu v0.8.1 // indirect
 	github.com/valyala/fastrand v1.1.0 // indirect
 	go.opencensus.io v0.22.5 // indirect
